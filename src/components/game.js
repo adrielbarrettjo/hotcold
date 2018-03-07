@@ -3,7 +3,7 @@ import React from 'react';
 import NewGameHeader from './new-game-header';
 import Feedback from './hot-box';
 import GuessForm from './guess-form';
-import GreenBox from './green-box';
+import StatusSection from './status-section';
 
 export default class Game extends React.Component {
 	constructor(props) {
@@ -68,7 +68,7 @@ export default class Game extends React.Component {
 				<GuessForm
 		            guessCount={guessCount}
 		            onMakeGuess={guess => this.makeGuess(guess)}/>
-				<GreenBox
+				<StatusSection
 					guesses={this.state.guesses} />
 			</div>
 	) 

@@ -19,7 +19,7 @@ nav ul li {
 }
 
 nav a {
-  /*color: #fff;*/
+  color: #fff;
 }
 
 .status-link {
@@ -31,5 +31,5 @@ h1 {
   font-weight: 900;
   font-size: 3em;
   padding: 0.8em;
-  /*color: #fff;*/
+  color: #fff;
 }
